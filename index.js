@@ -137,6 +137,7 @@ QuickBooks.prototype.findClassesOld = QuickBooks.prototype.findClasses
 QuickBooks.prototype.findCompanyInfosOld = QuickBooks.prototype.findCompanyInfos
 QuickBooks.prototype.findCreditMemosOld = QuickBooks.prototype.findCreditMemos
 QuickBooks.prototype.findCustomersOld = QuickBooks.prototype.findCustomers
+QuickBooks.prototype.findCustomerTypeOld = QuickBooks.prototype.findCustomerType
 QuickBooks.prototype.findDepartmentsOld = QuickBooks.prototype.findDepartments
 QuickBooks.prototype.findDepositsOld = QuickBooks.prototype.findDeposits
 QuickBooks.prototype.findEmployeesOld = QuickBooks.prototype.findEmployees
@@ -1119,6 +1120,13 @@ QuickBooks.prototype.findCreditMemos = promisify(QuickBooks.prototype.findCredit
  * @param  {object} criteria - (Optional) String or single-valued map converted to a where clause of the form "where key = 'value'"
  */
 QuickBooks.prototype.findCustomers = promisify(QuickBooks.prototype.findCustomersOld)
+
+/**
+ * Finds all Customer Types in QuickBooks, optionally matching the specified criteria
+ *
+ * @param  {object} criteria - (Optional) String or single-valued map converted to a where clause of the form "where key = 'value'"
+ */
+QuickBooks.prototype.findCustomerTypes = promisify(QuickBooks.prototype.findCustomerTypesOld)
 
 /**
  * Finds all Departments in QuickBooks, optionally matching the specified criteria
