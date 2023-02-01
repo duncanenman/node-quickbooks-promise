@@ -3,7 +3,7 @@
   "version": "1.0.5",
   "description": "Promisify node-quickbooks api",
   "main": "index.js",
-  "repository": "https://github.com/rhdeck/node-quickbooks-promise",
+  "repository": "https://github.com/duncanenman/node-quickbooks-promise",
   "author": "Ray Deck",
   "license": "MIT",
   "scripts": {
