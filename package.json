@@ -14,6 +14,6 @@
     "mustache": "^3.0.1"
   },
   "dependencies": {
-    "@duncanenman/node-quickbooks": "^2.041"
+    "node-quickbooks" : "git://github.com/duncanenman/node-quickbooks.git",
   }
 }
