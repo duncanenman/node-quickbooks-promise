@@ -14,6 +14,6 @@
     "mustache": "^3.0.1"
   },
   "dependencies": {
-    "@raydeck/node-quickbooks": "^2.041"
+    "@mcohen01/node-quickbooks": "^2.041"
   }
 }
